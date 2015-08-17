@@ -1,0 +1,10 @@
+﻿{
+  "AppSettings": {
+    "SiteTitle": "Kwicli"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-Kwicli-864c8c3e-41cd-4a83-8a24-1a3e3da89147;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
