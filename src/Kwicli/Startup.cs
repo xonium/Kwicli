@@ -130,6 +130,9 @@ namespace Kwicli
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
 
+                routes.MapRoute(
+                    name: "labs",
+                    template: "labs/{controller=Rotator}/{action=Index}/{id?}");
                 // Uncomment the following line to add a route for porting Web API 2 controllers.
                 // routes.MapWebApiRoute("DefaultApi", "api/{controller}/{id?}");
             });

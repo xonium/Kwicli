@@ -8,22 +8,22 @@ using Microsoft.AspNet.Mvc;
 
 namespace Kwicli.Controllers
 {
-    public class Labs : Controller
+    public class RotatorController : Controller
     {
         // GET: /<controller>/
         public IActionResult Index()
         {
             return View();
         }
-
-        public IActionResult Rotator()
+        
+        public IActionResult List()
         {
-            return View("~/Views/Labs/RotatorRoot.cshtml");
+            return View();
         }
 
-        public IActionResult Rotator(int id)
+        public IActionResult Detail(int id)
         {
-            return View("~/Views/Labs/Rotator.cshtml");
+            return View();
         }
     }
 }
